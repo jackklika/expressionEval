@@ -1,0 +1,20 @@
+This is a program which prompts the user for a text file containing mathmatical expressions seperated by line breaks.
+
+Version 0.1 of this program has the following capabilities:
+
+- Evaluating expressions containing the following:
+    - Numbers >= 0 and <= 9
+    - Operands +, -, *, /, <, and >
+        - > and < will return the maximum of the two operands or the minimum of the two operands respectively
+    - Parentheses
+- Expressions will be evaluated with integer arithmatic
+
+The program will return the equations and their results.
+    For example, if given a text file containing "2+2", it would return "2+2 == 4"
+
+WARNINGS:
+    This is a program created by an 18 year old still learning how to program. If you really need an expression evaluator for a serious project, please look somewhere else. This is simply a proof of concept and means for me to practice learning how to use stacks in Java.
+    Errors are NOT handled gracefully whatsoever. Use at your own risk!
+
+
+
